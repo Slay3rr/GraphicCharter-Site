@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphicCharter NoName</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom py-2">
+        <div class="container d-flex justify-content-center align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="NoName Logo">
+            </a>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-light py-2">
+        <div class="container d-flex justify-content-center">
+            <ul class="navbar-nav gap-4">
+                <li class="nav-item">
+                    <a class="nav-link stylized-link" href="#decouvrir">Découvrir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link stylized-link" href="#logo">Logo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link stylized-link" href="#couleurs">Couleurs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link stylized-link" href="#typographie">Typographie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link stylized-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero  -->
+<header class="hero">
+    <div class="container">
+        <h1 class="display-3">LA PLATEFORME POUR VOS ÉVÉNEMENTS</h1>
+        <p class="lead">Simplifiez la gestion et offrez une expérience inoubliable.</p>
+        <div>
+            <a href="#decouvrir" class="btn btn-light btn-lg mx-2">Découvrir</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg mx-2">Contactez-nous</a>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Decouvrir -->
+<section id="decouvrir" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">À propos de NoName</h2>
+        <p class="lead text-center">Découvrez comment notre application révolutionne la gestion d'événements.</p>
+               <!-- Qui sommes-nous -->
+               <div id="qui-sommes-nous" class="my-5">
+                <h3 class="fw-bold mb-4">Qui sommes-nous ?</h3>
+                <p class="lead">
+                    <strong>NoName</strong> est une plateforme conçue pour simplifier et sublimer la gestion de vos événements. 
+                    De la billetterie moderne à la gestion des files d’attente, notre mission est de 
+                    <span class="highlight">réunir innovation et convivialité</span>.
+                </p>
+                <h4 class="fw-bold mt-5">Notre vision</h4>
+                <p class="lead">
+                    Créer des expériences inoubliables grâce à des outils intuitifs et une expertise technique à la pointe.
+                </p>
+                <h4 class="fw-bold mt-5">Notre mission</h4>
+                <p class="lead">
+                    Proposer des solutions modernes et accessibles pour tous les organisateurs d’événements, en combinant 
+                    simplicité, efficacité et plaisir. Nous croyons en la puissance de la technologie pour transformer 
+                    chaque soirée en un moment mémorable.
+                </p>
+                <div class="values text-center mt-4">
+                    <div class="value-card">Innovation</div>
+                    <div class="value-card">Convivialité</div>
+                    <div class="value-card">Fiabilité</div>
+                </div>
+            </div>
+            <section id="besoin" class="py-5">
+                <div class="container d-flex">
+                    <div class="besoin-cards">
+                        <h2 class="text-center mb-4">Comment décrit-on le besoin pour NoName ?</h2>
+                        <div class="besoin-wrapper">
+                            <div class="besoin-step" data-step="1">
+                                <div class="step-circle">1</div>
+                                <h3>Challenge</h3>
+                                <p>Les organisateurs d'événements font face à des défis tels que la gestion des files d'attente, une billetterie parfois inadaptée et des expériences désorganisées pour les invités.</p>
+                            </div>
+                            <div class="besoin-step" data-step="2">
+                                <div class="step-circle">2</div>
+                                <h3>Solution</h3>
+                                <p>NoName offre une plateforme intuitive et complète qui répond aux besoins en billetterie moderne, gestion des flux et organisation d'événements mémorables.</p>
+                            </div>
+                            <div class="besoin-step" data-step="3">
+                                <div class="step-circle">3</div>
+                                <h3>Résultat</h3>
+                                <p>Une expérience fluide et inoubliable pour les participants, avec une organisation simplifiée et des outils technologiques à la pointe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-grid">
+                        <img src="images/mtc2.jpg" alt="Image 1" class="grid-item item1">
+                        <img src="images/wmn3.jpg" alt="Image 2" class="grid-item item2">
+                        <img src="images/mic3.jpg" alt="Image 3" class="grid-item item3">
+                        <img src="images/mic.jpg" alt="Image 4" class="grid-item item4">
+                    </div>
+                </div>
+            </section>
+            <section id="features" class="py-5">
+                <div class="container">
+                    <h2 class="text-center mb-4">Fonctionnalités : Faites la queue, découvrez tout !</h2>
+                    <p class="lead text-center">NoName, un outil pour les invités et les organisateurs. Voici pourquoi vous allez l'adorer !</p>
+                    <div class="feature-wrapper">
+                        <div class="feature-list">
+                            <h3 class="list-title">Pour les Invités 🎉</h3>
+                            <ul class="queue">
+                                <li class="queue-item" data-feature="check-in">
+                                    <h4>Check-in Virtuel</h4>
+                                    <p>Évitez les files d'attente physiques avec un check-in rapide et intuitif directement sur votre téléphone.</p>
+                                </li>
+                                <li class="queue-item" data-feature="real-time-info">
+                                    <h4>Informations en Temps Réel</h4>
+                                    <p>Recevez les dernières mises à jour : horaires, annonces et changements en direct pour ne rien manquer.</p>
+                                </li>
+                                <li class="queue-item" data-feature="personalized-access">
+                                    <h4>Accès Personnalisé</h4>
+                                    <p>Des billets QR uniques, des bracelets connectés : accédez à l'événement en toute simplicité.</p>
+                                </li>
+                                <li class="queue-item" data-feature="interactive-maps">
+                                    <h4>Cartes Interactives</h4>
+                                    <p>Explorez le lieu avec des cartes interactives qui vous montrent les bars, scènes et zones VIP.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="feature-list">
+                            <h3 class="list-title">Pour les Organisateurs 🛠️</h3>
+                            <ul class="queue">
+                                <li class="queue-item" data-feature="ticketing-system">
+                                    <h4>Système de Billetterie</h4>
+                                    <p>Créez, gérez et vendez vos billets en ligne avec des outils analytiques puissants.</p>
+                                </li>
+                                <li class="queue-item" data-feature="flow-management">
+                                    <h4>Gestion des Flux</h4>
+                                    <p>Surveillez les entrées, sorties et déplacements des invités pour éviter les engorgements.</p>
+                                </li>
+                                <li class="queue-item" data-feature="live-statistics">
+                                    <h4>Statistiques en Direct</h4>
+                                    <p>Obtenez des données en temps réel : taux de remplissage, ventes et satisfaction des invités.</p>
+                                </li>
+                                <li class="queue-item" data-feature="event-customization">
+                                    <h4>Personnalisation d'Événements</h4>
+                                    <p>Ajoutez des thèmes, configurez des zones exclusives et créez des expériences uniques pour vos invités.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="public-cible" class="py-5">
+                <div class="container text-center">
+                    <h2 class="mb-4">Qui est invité ?</h2>
+                    <p class="lead mb-5">Notre projet est conçu pour répondre aux attentes de tous. Que vous soyez en coulisses ou sur la piste, vous êtes les bienvenus !</p>
+                    <ul class="target-list">
+                        <li class="target-item">
+                            <span class="icon">🕺</span>
+                            <h3>Les Amoureux de de soirées</h3>
+                            <p>Pour ceux qui vivent pour danser, se divertir et créer des souvenirs inoubliables.</p>
+                        </li>
+                        <li class="target-item">
+                            <span class="icon">📋</span>
+                            <h3>Les Organisateurs Ambitieux</h3>
+                            <p>Des outils puissants pour planifier des événements impeccables, de l'inscription à l'expérience utilisateur.</p>
+                        </li>
+                        <li class="target-item">
+                            <span class="icon">🎧</span>
+                            <h3>Les Créateurs d’Ambiance</h3>
+                            <p>Pour ceux qui maîtrisent l’art de la musique et des émotions pour captiver leur public.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="voice-tone" class="py-5">
+                <div class="container">
+                    <h2 class="text-center mb-4">Notre Voice and Tone</h2>
+                    <p class="lead text-center">Comment NoName communique avec son audience.</p>
+                    <div class="voice-tone-wrapper">
+                        <div class="voice-tone-item" data-tone="Confident">
+                            <h3>Confiant</h3>
+                            <p>Nous inspirons confiance grâce à notre expertise et à nos solutions éprouvées pour révolutionner les événements.</p>
+                        </div>
+                        <div class="voice-tone-item" data-tone="Innovative">
+                            <h3>Innovant</h3>
+                            <p>Une voix qui reflète notre créativité et notre avant-gardisme dans la gestion événementielle.</p>
+                        </div>
+                        <div class="voice-tone-item" data-tone="Accessible">
+                            <h3>Accessible</h3>
+                            <p>Un ton chaleureux et accueillant qui invite tout le monde à se sentir à l’aise avec NoName.</p>
+                        </div>
+                        <div class="voice-tone-item" data-tone="Empowering">
+                            <h3>Inspirant</h3>
+                            <p>Nous donnons à nos utilisateurs les outils nécessaires pour créer des événements inoubliables.</p>
+                        </div>
+                    </div>
+                </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/yardparty.jpg" class="d-block w-100" alt="Image 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Simplifiez la gestion de vos événements.</h2>
+                        <p>Avec NoName, créez, planifiez et gérez vos événements en toute simplicité grâce à une technologie intuitive.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Wander.jpg" class="d-block w-100" alt="Image 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Offrez des expériences inoubliables.</h5>
+                        <p>Transformez chaque événement en un moment mémorable, pour les organisateurs comme pour les participants.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/wander2.jpg" class="d-block w-100" alt="Image 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>La technologie au service de vos soirées.</h5>
+                        <p>Bénéficiez d'outils modernes : billetterie, files d'attente virtuelles, et bien plus, tout en un seul endroit.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+    <section id="logo-presentation" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Le Logo : Une Empreinte Unique</h2>
+            <p class="lead mb-5">Un logo qui symbolise l'authenticité, la modernité, et l'union entre technologie et humanité.</p>
+            <div class="logo-grid">
+                <div class="logo-item">
+                    <img src="images/logo.jpeg" alt="Logo Principal" class="logo-image">
+                    <h3>Logo Principal</h3>
+                    <p>Le logo complet avec le nom "NoName", parfaitement adapté pour la communication officielle et les médias numériques.</p>
+                </div>
+                <div class="logo-item">
+                    <img src="images/logoalone.png" alt="Empreinte Digitale" class="logo-image">
+                    <h3>L'Empreinte Digitale</h3>
+                    <p>Un symbole qui représente l'authenticité et l'individualité, tout en restant simple et impactant.</p>
+                </div>
+                <div class="logo-item">
+                    <img src="logo-variations.jpeg" alt="Variations du Logo" class="logo-image">
+                    <h3>Variations et Contexte</h3>
+                    <p>Le logo s'adapte aux contextes : monochrome, sur fond sombre ou clair, en icône, ou en en-tête.</p>
+                </div>
+            </div>
+            <div class="logo-description">
+                <h3>Concept et Signification</h3>
+                <p>
+                    L'empreinte digitale symbolise l'unicité et la personnalisation des expériences proposées par "NoName". 
+                    Le nom "NoName" reflète l'idée d'une plateforme inclusive et neutre, laissant la place à l'identité de chaque utilisateur.
+                </p>
+            </div>
+        </div>
+    </section>
+<section id="couleurs" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Palette de Couleurs</h2>
+        <p class="lead text-center">
+            La palette choisie reflète l'équilibre entre modernité et convivialité, tout en incarnant l'identité unique du projet :
+        </p>
+        <ul class="list-unstyled text-center">
+            <li>
+                <strong style="color: #B5654A;">Brun Terreux</strong> (#B5654A) : Stabilité et chaleur, illustrant la fiabilité du service.
+            </li>
+            <li>
+                <strong style="color: #F7E7CE;">Beige Clair</strong> (#F7E7CE) : Douceur et simplicité, pour un accès inclusif et accueillant.
+            </li>
+            <li>
+                <strong style="color: #1A202C;">Gris Noir</strong> (#1A202C) : Élégance et modernité, renforçant une image professionnelle.
+            </li>
+            <li>
+                <strong style="color: #D4A373;">Sable Doré</strong> (#D4A373) : Raffinement et prestige, apportant une touche de sophistication.
+            </li>
+        </ul>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+            <div class="col">
+                <div class="color-card" style="background-color: #B5654A;">
+                    <span class="color-name">Brun Terreux</span>
+                    <span class="color-code">#B5654A</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="color-card" style="background-color: #F7E7CE;">
+                    <span class="color-name">Beige Clair</span>
+                    <span class="color-code">#F7E7CE</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="color-card" style="background-color: #1A202C;">
+                    <span class="color-name">Gris Noir</span>
+                    <span class="color-code">#1A202C</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="color-card" style="background-color: #D4A373;">
+                    <span class="color-name">Sable Doré</span>
+                    <span class="color-code">#D4A373</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="typography" class="typography-section">
+    <div class="container">
+        <h2>Découvrez la Typographie : <span class="highlight">Quicksand Bold</span></h2>
+        <div class="typography-showcase">
+            <div class="intro">
+                <p>
+                    La typographie <span class="highlight">Quicksand Bold</span> est le coeur de l'identité visuelle de NoName. 
+                    Avec son design moderne et chaleureux, elle incarne la <strong>convivialité</strong> et 
+                    l'<strong>innovation</strong>, des piliers de notre projet.
+                </p>
+            </div>
+            <div class="typography-animation">
+                <div class="text-orbit">
+                    <span class="orbit-text">Élégance</span>
+                    <span class="orbit-text">Convivialité</span>
+                    <span class="orbit-text">Modernité</span>
+                    <span class="orbit-text">Innovation</span>
+                </div>
+                <p class="center-text">Quicksand Bold au centre de l'expérience.</p>
+            </div>
+            <div class="typography-explosion">
+                <div class="word-container">
+                    <span class="word" data-keyword="Dynamique">Dynamique</span>
+                    <span class="word" data-keyword="Moderne">Moderne</span>
+                    <span class="word" data-keyword="Convivial">Convivial</span>
+                    <span class="word" data-keyword="Lisible">Lisible</span>
+                    <span class="word" data-keyword="Audacieux">Audacieux</span>
+                    <span class="word" data-keyword="Impactant">Impactant</span>
+                </div>
+                <p class="explosion-description">
+                    Chaque mot illustre une qualité clé de <span class="highlight">Quicksand Bold</span>. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 NoName - Tous droits réservés.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</body>
